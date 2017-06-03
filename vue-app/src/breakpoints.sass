@@ -1,0 +1,33 @@
+
+/*	MEDIA QUERIES
+ ******************************** */
+$primary: #1EC9AC !default
+
+// TABLET
+$tablet: 769px !default
+// DESKTOP
+$desktop: 1000px !default
+// DESKTOP WIDESCREEN
+$desktop_wide: 1192px !default
+// FULL HD
+$fullhd: 1384px !default
+
+=mobile
+	@media screen and (max-width: $tablet -1px)
+		@content
+
+=tablet
+	@media screen and (min-width: $tablet), print
+		@content
+
+=tablet-only
+	@media screen and (min-width: $tablet) and (max-width: $desktop - 1px)
+		@content
+
+=desktop
+	@media screen and (min-width: $desktop)
+		@content
+
+=desktop-only
+	@media screen and (min-width: $desktop) and (max-width: $desktop_wide - 1px)
+		@content
