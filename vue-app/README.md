@@ -1,6 +1,6 @@
 # vue-app
 
-> Simple vue.js web app
+Vue.js web application created with [Bulma CSS Framework](http://bulma.io) and [Vue.js CLI](https://vuejs.org/v2/guide/installation.html)
 
 ## Build Setup
 
