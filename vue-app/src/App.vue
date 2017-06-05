@@ -33,6 +33,20 @@
       </div>
     </div>
     <router-view></router-view>
+    <footer class="footer is-primary">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <p>&copy;2017 ALL RIGHTS RESERVED</p>
+          </div>
+          <div class="column has-text-right">
+            <a href="#" class="icon"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="icon"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="icon"><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -73,4 +87,12 @@ a.r-item
 
 .nav-toggle span 
   background-color: #C1C1C1
+
+footer
+  background-color: $primary !important
+  color: #fff
+  .icon
+    color: #fff
+    margin-left: 1.2em
+
 </style>
