@@ -25,7 +25,7 @@
                 <span class="icon">
                   <i class="fa fa-download"></i>
                 </span>
-                <span>Join Now</span>
+                <span>Download</span>
               </a>
             </p>
           </div>
@@ -43,6 +43,7 @@
             <a href="#" class="icon"><i class="fa fa-twitter"></i></a>
             <a href="#" class="icon"><i class="fa fa-linkedin"></i></a>
             <a href="#" class="icon"><i class="fa fa-instagram"></i></a>
+            <a href="#" class="icon"><i class="fa fa-facebook"></i></a>
           </div>
         </div>
       </div>
